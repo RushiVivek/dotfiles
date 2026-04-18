@@ -9,6 +9,7 @@ This method is based on [this](https://wiki.archlinux.org/title/Dotfiles#Trackin
 git init --bare ~/.dotfiles
 alias -s dotfiles '/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 dotfiles config status.showUntrackedFiles no
+dotfiles config core.excludesFile .dotfiles/.dotfilesignore
 dotfiles remote add origin https://github.com/RushiVivek/dotfiles.git
 ```
 
