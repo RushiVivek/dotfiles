@@ -1,0 +1,53 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1771992180460257059 @name=mpv
+window-rule {
+    match app-id="^mpv$"
+    open-maximized true
+    open-fullscreen true
+}
+
+// @id=wr_1772072983528996325 @name=org.kde.dolphin
+window-rule {
+    match app-id="^org.kde.dolphin$"
+    open-maximized true
+}
+
+// @id=wr_1772478546665245191 @name=org.kde.okular
+window-rule {
+    match app-id="^org.kde.okular$"
+    open-maximized true
+}
+
+// @id=wr_1772478567108178345 @name=ferdium
+window-rule {
+    match app-id="^ferdium$"
+    open-maximized true
+}
+
+// @id=wr_1773471234357105080 @name=sublime_text
+window-rule {
+    match app-id="^sublime_text$"
+    open-maximized true
+}
+
+// @id=wr_1774802027506007429 @name=io.github.Qalculate.qalculate-qt
+window-rule {
+    match app-id="^io.github.Qalculate.qalculate-qt$"
+    open-floating true
+    default-column-width { fixed 800; }
+    default-window-height { fixed 600; }
+}
+
+// @id=wr_1776202137716497454 @name=brave-browser
+window-rule {
+    match app-id="^brave-browser$"
+    open-maximized true
+}
+
+// @id=wr_1776210348514013873 @name=jetbrains-pycharm
+window-rule {
+    match app-id="^jetbrains-pycharm$"
+    open-fullscreen true
+}

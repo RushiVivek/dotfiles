@@ -1,0 +1,35 @@
+{
+  "dankPomodoroTimer": {
+    "enabled": true,
+    "autoStartBreaks": true,
+    "autoStartPomodoros": true
+  },
+  "commandRunner": {
+    "enabled": true,
+    "history": [
+      "brd"
+    ]
+  },
+  "lyricsOnPanel": {
+    "enabled": false
+  },
+  "webSearch": {
+    "enabled": true,
+    "searchEngines": [],
+    "disabledEngines": []
+  },
+  "dankBitwarden": {
+    "enabled": true,
+    "trigger": "[",
+    "noTrigger": false,
+    "copyToClipboard": false
+  },
+  "dankNotepadModule": {
+    "enabled": false,
+    "style": "catppuccin-macchiato"
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "ad646aecbe89415e83a6d8abb1c27ec5"
+  }
+}
