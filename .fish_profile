@@ -1,0 +1,23 @@
+################## NEOVIM #####################
+for dir in ~/.config/*
+    if test -d $dir
+        if test -f $dir/init.lua -o -f $dir/init.vim
+            set name (basename $dir)
+            set lname (string lower $name)
+            alias nvim-$lname="env NVIM_APPNAME=$name nvim"
+        end
+    end
+end
+
+bind --mode insert \ca nvim
+
+################## ONE LINERS #####################
+zoxide init fish | source
+
+set -x LANG en_US.UTF-8 # btop
+
+# starship init fish | source
+
+abbr -a sudopath "sudo -E"
+
+abbr -a unlock_sudo "faillock --reset"
