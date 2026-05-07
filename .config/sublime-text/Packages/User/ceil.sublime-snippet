@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+ll ceilup(ll a, ll b) {
+    if (a == 0) return 0;
+    return (a - 1)/b + 1;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ceil</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

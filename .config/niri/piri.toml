@@ -1,0 +1,33 @@
+# Piri Configuration File
+# Copy this file to ~/.config/niri/piri.toml
+
+[niri]
+# Optional: Path to niri socket
+# If not specified, will use $XDG_RUNTIME_DIR/niri or /tmp/niri
+# socket_path = "/tmp/niri"
+
+# Plugin control: enable/disable plugins
+# If not specified, plugins are disabled by default
+[piri.plugins]
+scratchpads = false
+empty = false
+window_rule = false
+singleton = false
+window_order = false
+swallow = false
+workspace_rule = false
+mark = false
+sticky = true
+
+[piri.scratchpad]
+default_size = "40% 60%"
+default_margin = 50
+
+[scratchpads.term]
+direction = "fromRight"
+command = "kitty --app-id floaty.term"
+app_id = "floaty.term"
+size = "70% 80%"
+margin = 100
+sticky = true
+auto_hide_on_focus_loss = true

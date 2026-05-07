@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: TOML (Lock)
+scope: source.toml.lock
+hidden: true
+file_extensions:
+  - Cargo.lock
+  - Gopkg.lock
+  - uv.lock
+contexts:
+  main:
+    - include: scope:source.toml
+      apply_prototype: true

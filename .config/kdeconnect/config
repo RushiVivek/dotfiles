@@ -1,0 +1,4 @@
+[General]
+disabled_providers=BluetoothLinkProvider
+keyAlgorithm=EC
+name=Rushi-CachyOS

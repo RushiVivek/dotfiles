@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+const int MAXN = ${0:2e6 + 5};
+vector<bool> isPrime(MAXN, true);
+vector<int> primes;
+
+void sieve() {
+    isPrime[0] = isPrime[1] = false;
+    for (int i = 2; i * i < MAXN; i++) {
+        if (isPrime[i]) {
+            for (int j = i * i; j < MAXN; j += i) {
+                isPrime[j] = false;
+            }
+        }
+    }
+    for (int i = 2; i < MAXN; ++i) {
+        if (isPrime[i]) primes.push_back(i);
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sieve</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

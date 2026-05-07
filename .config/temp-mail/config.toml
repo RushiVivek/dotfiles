@@ -1,0 +1,7 @@
+[auth]
+api = "5c38b3c3-1a7b-4a63-af2b-eee50772d611"
+namespace = "96f37"
+token = "5c38b3c3-1a7b-4a63-af2b-eee50772d611"
+
+[options]
+tag_length = 8

@@ -1,0 +1,86 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            },
+            {
+                "type": 1,
+                "code": 272,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA+KEY_LEFT",
+        "mapping_type": "key_macro",
+        "release_combination_keys": false
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            },
+            {
+                "type": 1,
+                "code": 273,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_LEFTMETA+KEY_RIGHT",
+        "mapping_type": "key_macro",
+        "release_combination_keys": false
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            },
+            {
+                "type": 2,
+                "code": 8,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459",
+                "analog_threshold": -1
+            },
+            {
+                "type": 2,
+                "code": 11,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459",
+                "analog_threshold": -1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_VOLUMEDOWN",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459"
+            },
+            {
+                "type": 2,
+                "code": 8,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459",
+                "analog_threshold": 1
+            },
+            {
+                "type": 2,
+                "code": 11,
+                "origin_hash": "a2c7d66f02da7620e009a2fc7ff88459",
+                "analog_threshold": 1
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_VOLUMEUP",
+        "mapping_type": "key_macro"
+    }
+]

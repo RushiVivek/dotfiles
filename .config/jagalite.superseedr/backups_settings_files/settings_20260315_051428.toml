@@ -1,0 +1,65 @@
+client_id = "-SS1000-1oyBU14WbzdF"
+client_port = 6681
+lifetime_downloaded = 91565874295
+lifetime_uploaded = 2007973888
+private_client = false
+torrent_sort_column = "Down"
+torrent_sort_direction = "Descending"
+peer_sort_column = "DL"
+peer_sort_direction = "Descending"
+ui_theme = "catppuccin_mocha"
+default_download_folder = "/home/rushi/Downloads"
+max_connected_peers = 2000
+bootstrap_nodes = [
+    "router.utorrent.com:6881",
+    "router.bittorrent.com:6881",
+    "dht.transmissionbt.com:6881",
+    "dht.libtorrent.org:25401",
+    "router.cococorp.de:6881",
+]
+global_download_limit_bps = 0
+global_upload_limit_bps = 0
+max_concurrent_validations = 64
+connection_attempt_permits = 50
+upload_slots = 8
+peer_upload_in_flight_limit = 4
+tracker_fallback_interval_secs = 1800
+client_leeching_fallback_interval_secs = 60
+output_status_interval = 0
+
+[[torrents]]
+torrent_or_magnet = "magnet:?xt=urn:btih:F1BE72372360B16A2CD585DB4E118A8BB3B0A455&dn=Dark%202017%20Seasons%201%20to%203%20Complete%201080p%20WEB%20x264%20%5Bi_c%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337"
+name = "Dark 2017 Seasons 1 to 3 Complete 1080p WEB x264 [i_c]"
+validation_status = false
+download_path = "/home/rushi/Downloads"
+container_name = "Dark 2017 Seasons 1 to 3 Complete 1080p WEB x264 [i_c] [f1be72372360b16a2cd585db4e118a8bb3b0a455]"
+torrent_control_state = "Paused"
+
+[torrents.file_priorities]
+
+[[torrents]]
+torrent_or_magnet = "magnet:?xt=urn:btih:15B240C275E1459A738DF707AADE93489688C1D5&dn=Lucifer%20(2016)%20Season%201-6%20S01-S06%20%2B%20Extras%20(1080p%20BluRay%20x265%20HEVC%2010bit%20EAC3%205.&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337"
+name = "Lucifer (2016) Season 1-6 S01-S06 + Extras (1080p BluRay x265 HEVC 10bit EAC3 5.1 Ghost)"
+validation_status = false
+download_path = "/home/rushi/Downloads"
+container_name = "Lucifer (2016) Season 1-6 S01-S06 + Extras (1080p BluRay x265 HEVC 10bit EAC3 5.1 Ghost) [15b240c275e1459a738df707aade93489688c1d5]"
+torrent_control_state = "Paused"
+
+[torrents.file_priorities]
+
+[[torrents]]
+torrent_or_magnet = "magnet:?xt=urn:btih:715841291ad8e06744f4fcfc35a77a9dee32e7db&dn=%5BStarbez%5D%20Fugou%20Keiji%20-%20Balance%20Unlimited%20%7C%20The%20Millionaire%20Detective%20-%20Balance%20Unlimited%20-%20Season%2001%20%28S01%29%20%28WEB%201080p%20H.264%20AAC%29%20%5BDual%20Audio%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce"
+name = "[Starbez] Fugou Keiji - Balance Unlimited - S01 (WEB 1080p H.264 AAC) [Dual Audio]"
+validation_status = false
+download_path = "/home/rushi/Downloads"
+container_name = "[Starbez] Fugou Keiji - Balance Unlimited - S01 (WEB 1080p H.264 AAC) [Dual Audio] [715841291ad8e06744f4fcfc35a77a9dee32e7db]"
+torrent_control_state = "Running"
+
+[torrents.file_priorities]
+
+[rss]
+enabled = true
+poll_interval_secs = 900
+max_preview_items = 500
+feeds = []
+filters = []

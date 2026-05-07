@@ -1,0 +1,7 @@
+{
+    "version": "2.2.0",
+    "autoload": {
+        "HS6209 2.4G Wireless Receiver": "mouse",
+        "Gamepad": "new preset"
+    }
+}

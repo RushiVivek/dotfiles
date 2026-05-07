@@ -51,3 +51,25 @@ window-rule {
     match app-id="^jetbrains-pycharm$"
     open-fullscreen true
 }
+
+// @id=wr_1777121101458554629 @name=com.obsproject.Studio
+window-rule {
+    match app-id="^com.obsproject.Studio$"
+    open-maximized true
+}
+
+// @id=wr_1777190999857762442 @name=pomotroid
+window-rule {
+    match app-id="^pomotroid$"
+    open-floating true
+    default-column-width { fixed 400; }
+    default-window-height { fixed 400; }
+}
+
+// @id=wr_1778005503125360986 @name=python3
+window-rule {
+    match app-id="^python3$" title="^temp-mail$"
+    open-floating true
+    default-column-width { fixed 600; }
+    default-window-height { fixed 500; }
+}

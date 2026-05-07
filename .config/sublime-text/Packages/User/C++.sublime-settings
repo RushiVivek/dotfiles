@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the C++ syntax
+{
+	"scroll_past_end": 0.2,
+	// "trim_trailing_white_space_on_save": "all",
+	"save_on_focus_lost": true,
+	"ui_scale": 1.25
+}

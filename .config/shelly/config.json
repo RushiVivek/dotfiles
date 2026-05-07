@@ -7,7 +7,7 @@
   "DarkMode": true,
   "AurEnabled": true,
   "AurWarningConfirmed": true,
-  "FlatPackEnabled": false,
+  "FlatPackEnabled": true,
   "ConsoleEnabled": false,
   "WindowWidth": 800,
   "WindowHeight": 600,
@@ -18,10 +18,11 @@
   "TrayCheckIntervalHours": 12,
   "NoConfirm": false,
   "NewInstall": false,
-  "CurrentVersion": "2.0.8",
+  "CurrentVersion": "2.1.0",
   "UseWeeklySchedule": false,
   "DaysOfWeek": [],
   "Time": null,
   "WebViewEnabled": false,
-  "ShellyIconsEnabled": true
+  "ShellyIconsEnabled": true,
+  "AppImageEnabled": false
 }

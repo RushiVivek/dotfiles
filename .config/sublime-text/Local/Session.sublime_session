@@ -1,0 +1,846 @@
+{
+	"file_history":
+	[
+		"/home/rushi/Scripts/Python/mail.py",
+		"/home/rushi/Scripts/Python/temp-mail/pyproject.toml",
+		"/home/rushi/Scripts/Python/temp-mail/main.py",
+		"/mnt/C/Path/mail.py",
+		"/mnt/C/Programming/spam.py",
+		"/mnt/C/Programming/wifi.py",
+		"/home/rushi/Programming/Wifi/main.py",
+		"/home/rushi/Programming/Wifi/wifi.py",
+		"/home/rushi/Downloads/CN/cnlab/lab6/script1.cc",
+		"/home/rushi/Downloads/CN/cnlab/lab5/lab5.py",
+		"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/server.py",
+		"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/client.py",
+		"/home/rushi/Downloads/CN/cnlab/lab3/server.py",
+		"/home/rushi/Downloads/CN/cnlab/lab3/client.py",
+		"/home/rushi/Downloads/CN/cnlab/lab2/server.py",
+		"/home/rushi/Downloads/CN/cnlab/lab2/client.py",
+		"/home/rushi/Downloads/CN/cnlab/lab1/server.cpp",
+		"/home/rushi/Downloads/CN/cnlab/lab1/client.cpp",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_fixed.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_buggy.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_buggy.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_fixed.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/main.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/test_transactions.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/CorrectedCode2.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/CorrectedCode1.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/student_debug_lab_2.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/student_debug_lab_1.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug_fixed.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug.py",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab6.zip/Lab 6/main.cpp",
+		"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab7.zip/Lab 7/main.cpp",
+		"/run/user/1000/kio-fuse-tHpcMZ/zip/mnt/Data/Downloads/fanfictiondotnet_repack/inventory.zip/inventory.txt",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/outputf.in",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/inputf.in",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/E.cpp",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/D.cpp",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/template.cpp",
+		"/home/rushi/Shortix/.shortix_last_run",
+		"/home/rushi/Shortix/.shortix",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/C.cpp",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/B.cpp",
+		"/home/rushi/Programming/CP/Others/IICPC Codefest26/A.cpp",
+		"/home/rushi/Programming/wifi.py",
+		"/home/rushi/Programming/CP/T.cpp",
+		"/home/rushi/Programming/CP/inputf.in",
+		"/home/rushi/Programming/CP/outputf.in",
+		"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-build",
+		"/home/rushi/.config/sublime-text/Packages/User/c++20.sublime-build",
+		"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-snippet"
+	],
+	"folder_history":
+	[
+		"/home/rushi/Scripts/Python/screen-time",
+		"/home/rushi/Scripts/Python/temp-mail"
+	],
+	"last_version": 4200,
+	"last_window_id": 5,
+	"log_indexing": false,
+	"next_update_check": 1778058491,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1072.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			0.0,
+			31.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rushi/Scripts/Python/screen-time/pyproject.toml",
+				"/home/rushi/Scripts/Python/mail.py",
+				"/home/rushi/Scripts/Python/temp-mail/main.py",
+				"/home/rushi/Scripts/Python/temp-mail/pyproject.toml",
+				"/mnt/C/Path/mail.py",
+				"/mnt/C/Programming/spam.py",
+				"/mnt/C/Programming/wifi.py",
+				"/home/rushi/Programming/Wifi/main.py",
+				"/home/rushi/Programming/Wifi/wifi.py",
+				"/home/rushi/Downloads/CN/cnlab/lab6/script1.cc",
+				"/home/rushi/Downloads/CN/cnlab/lab5/lab5.py",
+				"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab3/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab3/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab2/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab2/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab1/server.cpp",
+				"/home/rushi/Downloads/CN/cnlab/lab1/client.cpp",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_buggy.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_buggy.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/main.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/test_transactions.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/CorrectedCode2.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/CorrectedCode1.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/student_debug_lab_2.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/student_debug_lab_1.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab6.zip/Lab 6/main.cpp",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab7.zip/Lab 7/main.cpp",
+				"/run/user/1000/kio-fuse-tHpcMZ/zip/mnt/Data/Downloads/fanfictiondotnet_repack/inventory.zip/inventory.txt",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/outputf.in",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/inputf.in",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/E.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/D.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/template.cpp",
+				"/home/rushi/Shortix/.shortix_last_run",
+				"/home/rushi/Shortix/.shortix",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/C.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/B.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/A.cpp",
+				"/home/rushi/Programming/wifi.py",
+				"/home/rushi/Programming/CP/T.cpp",
+				"/home/rushi/Programming/CP/inputf.in",
+				"/home/rushi/Programming/CP/outputf.in",
+				"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-build",
+				"/home/rushi/.config/sublime-text/Packages/User/c++20.sublime-build",
+				"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-snippet"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 119.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 166.0,
+				"history":
+				[
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"3",
+					"1",
+					"3",
+					"1",
+					"3",
+					"0",
+					"1",
+					"3",
+					"1",
+					"0",
+					"1",
+					"3",
+					"1",
+					"5"
+				]
+			},
+			"output.find_results":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1912.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/rushi/Scripts/Python/screen-time/pyproject.toml",
+					"settings":
+					{
+						"buffer_size": 453,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							4,
+							"delete_word",
+							{
+								"forward": false
+							},
+							"BAAAAFUAAAAAAAAAVQAAAAAAAAAEAAAAaGVyZUkAAAAAAAAASQAAAAAAAAAMAAAAZGVzY3JpcHRpb24gRAAAAAAAAABEAAAAAAAAAAUAAAB5b3VyIEAAAAAAAAAAQAAAAAAAAAAEAAAAQWRkIA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABZAAAAAAAAAFkAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							4,
+							1,
+							"paste",
+							null,
+							"AQAAAEAAAAAAAAAAjgAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": " in"
+							},
+							"AwAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABYAAAAAAAAAFgAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFsAAAAAAAAAXAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbAAAAAAAAAFsAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							12,
+							3,
+							"left_delete",
+							null,
+							"AwAAAFsAAAAAAAAAWwAAAAAAAAABAAAAIFoAAAAAAAAAWgAAAAAAAAABAAAAblkAAAAAAAAAWQAAAAAAAAABAAAAaQ",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABcAAAAAAAAAFwAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "for"
+							},
+							"AwAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABZAAAAAAAAAFkAAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " niri"
+							},
+							"BQAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAF8AAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABhAAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABcAAAAAAAAAFwAAAAAAAAAAAAAAAAA8L8"
+						]
+					]
+				},
+				{
+					"file": "/home/rushi/Scripts/Python/screen-time/src/screen_time/main.py",
+					"settings":
+					{
+						"buffer_size": 2435,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/rushi/Scripts/Python/screen-time",
+				"/home/rushi/Scripts/Python/screen-time/src",
+				"/home/rushi/Scripts/Python/screen-time/src/screen_time"
+			],
+			"file_history":
+			[
+				"/home/rushi/Scripts/Python/mail.py",
+				"/home/rushi/Scripts/Python/temp-mail/main.py",
+				"/home/rushi/Scripts/Python/temp-mail/pyproject.toml",
+				"/mnt/C/Path/mail.py",
+				"/mnt/C/Programming/spam.py",
+				"/mnt/C/Programming/wifi.py",
+				"/home/rushi/Programming/Wifi/main.py",
+				"/home/rushi/Programming/Wifi/wifi.py",
+				"/home/rushi/Downloads/CN/cnlab/lab6/script1.cc",
+				"/home/rushi/Downloads/CN/cnlab/lab5/lab5.py",
+				"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab4/23JE0273_Lab4/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab3/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab3/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab2/server.py",
+				"/home/rushi/Downloads/CN/cnlab/lab2/client.py",
+				"/home/rushi/Downloads/CN/cnlab/lab1/server.cpp",
+				"/home/rushi/Downloads/CN/cnlab/lab1/client.cpp",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_buggy.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/transaction_buggy.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/analyzer_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/main.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab11.zip/Lab_10/test_transactions.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/CorrectedCode2.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/CorrectedCode1.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.2/student_debug_lab_2.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab9.zip/Lab_9/Lab_9.1/student_debug_lab_1.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug_fixed.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab8.zip/Lab_8/student_debug.py",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab6.zip/Lab 6/main.cpp",
+				"/run/user/1000/kio-fuse-NKhXtx/zip/home/rushi/Downloads/23je0720_se_cum_lab_files/23je0720_lab7.zip/Lab 7/main.cpp",
+				"/run/user/1000/kio-fuse-tHpcMZ/zip/mnt/Data/Downloads/fanfictiondotnet_repack/inventory.zip/inventory.txt",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/outputf.in",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/inputf.in",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/E.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/D.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/template.cpp",
+				"/home/rushi/Shortix/.shortix_last_run",
+				"/home/rushi/Shortix/.shortix",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/C.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/B.cpp",
+				"/home/rushi/Programming/CP/Others/IICPC Codefest26/A.cpp",
+				"/home/rushi/Programming/wifi.py",
+				"/home/rushi/Programming/CP/T.cpp",
+				"/home/rushi/Programming/CP/inputf.in",
+				"/home/rushi/Programming/CP/outputf.in",
+				"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-build",
+				"/home/rushi/.config/sublime-text/Packages/User/c++20.sublime-build",
+				"/home/rushi/.config/sublime-text/Packages/User/c++23.sublime-snippet"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 119.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/rushi/Scripts/Python/screen-time"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/rushi/Scripts/Python/screen-time/pyproject.toml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 453,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										97,
+										97
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/TOML/TOML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/rushi/Scripts/Python/screen-time/src/screen_time/main.py",
+							"selected": true,
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 2435,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						2
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.75,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.5,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 166.0,
+				"history":
+				[
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"0",
+					"1",
+					"6",
+					"1",
+					"3",
+					"1",
+					"3",
+					"1",
+					"3",
+					"0",
+					"1",
+					"3",
+					"1",
+					"0",
+					"1",
+					"3",
+					"1",
+					"5"
+				]
+			},
+			"output.find_results":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+			"position": "0,0,0,0,0,0,0,1912,1072,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 5,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

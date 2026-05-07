@@ -1,0 +1,15 @@
+{
+  "id": "tempMail",
+  "name": "Temp Mail",
+  "description": "Use temp-mail gui from launcher",
+  "version": "1.0.0",
+  "author": "Amaram Rushi Vivek",
+  "icon": "mail",
+  "type": "launcher",
+  "trigger": "!mail",
+  "viewMode": "list",
+  "viewModeEnforced": false,
+  "component": "./TempMail.qml",
+  "settings": "./TempMailSettings.qml",
+  "permissions": ["settings_read", "settings_write"]
+}

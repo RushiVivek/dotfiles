@@ -1,0 +1,56 @@
+---
+version:
+  - 0
+  - 31
+  - 0
+release:
+  checked: "2026-04-15T22:00:13.039700595Z"
+  latest: 0.31.0
+migrations:
+  adopted_cache: true
+  fixed_spanish_config: true
+  set_default_manifest_url_to_null: true
+manifests:
+  " https://raw.githubusercontent.com/BloodShed-Oni/ludusavi-extra-manifests/main/BS_ex-manifest.yaml":
+    etag: "W/\"1d97b608777c564bf331d6e6354d37bb4c97bbff3d8e91d29f0b6641c848dd90\""
+    checked: "2026-04-15T23:20:50.058518208Z"
+    updated: "2026-04-15T23:20:50.058518208Z"
+  "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/manifest.yaml":
+    etag: "W/\"2fcedd31d86f60bbd0e64e859863a92f810d79cfc6db81218d182517d5b2188a\""
+    checked: "2026-04-15T23:20:49.601204159Z"
+    updated: "2026-04-15T22:00:13.919769677Z"
+roots:
+  - store: heroic
+    path: /home/rushi/.config/heroic
+  - store: lutris
+    path: /home/rushi/.local/share/lutris
+    database: ~
+  - store: steam
+    path: /home/rushi/.local/share/Steam
+  - store: steam
+    path: /mnt/Data/SteamLibrary
+backup:
+  recent_games:
+    - "Arknights: Endfield"
+    - "Behind the Frame: The Finest Scenery"
+    - "Behind the Frame: The Finest Scenery VR"
+    - "Clair Obscur: Expedition 33"
+    - Clannad
+    - Dark Souls Remastered
+    - Dispatch (2025)
+    - F1 22
+    - Forza Horizon 4
+    - Genshin Impact
+    - God of War
+    - Helltaker
+    - Hogwarts Legacy
+    - Lies of P
+    - "Marvel's Spider-Man Remastered"
+    - "Moral Dilemma: The Interview"
+    - Peak
+    - "Sekiro: Shadows Die Twice"
+    - Sifu
+    - Subnautica
+    - Zenless Zone Zero
+restore:
+  recent_games: []

@@ -1,0 +1,5 @@
+[Plugins]
+kdeconnect_notificationsEnabled=false
+kdeconnect_remotecommandsEnabled=true
+kdeconnect_runcommandEnabled=true
+kdeconnect_sendnotificationsEnabled=false

@@ -1,0 +1,24 @@
+MenuBar=Disabled
+
+[ExtractDialog]
+1920x1080 screen: Height=1028
+1920x1080 screen: Width=954
+DirHistory[$e]=$HOME/Downloads/CEServer/
+
+[General]
+BrowseThroughArchives=true
+OpenExternallyCalledFolderInNewTab=true
+RememberOpenedTabs=false
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2026,2,7,22,42,46.608
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=ffmpegthumbnailer,appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,opendocumentthumbnail,glycin-svg,svgthumbnail

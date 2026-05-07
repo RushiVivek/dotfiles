@@ -69,7 +69,7 @@ input {
 
     // Focus windows and outputs automatically when moving the mouse into them.
     // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
-    // focus-follows-mouse max-scroll-amount="0%"
+    focus-follows-mouse max-scroll-amount="0%"
 }
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
@@ -88,15 +88,20 @@ output "eDP-1" {
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
+spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &"
+spawn-at-startup "env" "XDG_MENU_PREFIX=arch-" "kbuildsycoca6"
+spawn-at-startup "wmname" "LG3D"
+spawn-at-startup "dms" "run"
+
+spawn-at-startup "nsticky"
+// spawn-at-startup "niri-float-sticky"
+// spawn-at-startup "niriusd"
+spawn-at-startup "~/.config/niri/niri-sidebar" "listen"
+// spawn-at-startup "fish" "-c" "piri daemon > /dev/null 2>&1 &"
+spawn-at-startup "niri-screen-time" "-daemon"
 spawn-at-startup "awww-daemon" "--format" "xrgb"
 spawn-at-startup "variety"
-
-spawn-at-startup "env" "XDG_MENU_PREFIX=arch-" "kbuildsycoca6"
-spawn-at-startup "dms" "run"
-spawn-at-startup "niri-screen-time" "-daemon"
-spawn-at-startup "wmname" "LG3D"
-spawn-at-startup "kitty" "-e" "btop"
-spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
+// spawn-at-startup "kitty" "-e" "btop"
 layout {
     // Set gaps around windows in logical pixels.
     background-color "transparent"
@@ -262,7 +267,7 @@ window-rule {
 // Make inactive windows semitransparent.
 window-rule {
     match is-active=false
-    opacity 0.95
+    opacity 0.7
 }
 // Open dms windows as floating by default
 window-rule {
@@ -288,6 +293,10 @@ workspace "home" {
 
 }
 
+workspace "code" {
+
+}
+
 workspace "game" {
 
 }
@@ -296,6 +305,11 @@ window-rule {
   match app-id="^steam_app_"
   // open-fullscreen true
   open-on-workspace "game"
+}
+window-rule {
+    match is-floating=true
+    min-width 100
+    min-height 100
 }
 
 // Include dms files
@@ -306,3 +320,24 @@ include "dms/binds.kdl"
 include "dms/outputs.kdl"
 include "dms/cursor.kdl"
 include "dms/windowrules.kdl"
+
+binds {
+    Mod+Shift+Alt+L allow-when-locked=true hotkey-overlay-title=null { spawn "dms" "ipc" "call" "lock" "unlock"; }
+
+    // Mod+Alt+T repeat=false { spawn "piri" "scratchpads" "term" "toggle"; }
+    // Mod+A repeat=false { spawn "piri" "sticky" "add"; }
+    // Mod+Shift+A repeat=false { spawn "piri" "sticky" "delete"; }
+
+    Mod+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-window"; }
+    Mod+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-visibility"; }
+    Mod+Ctrl+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar flip"; }
+    Mod+Ctrl+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar reorder"; }
+
+    // Mod+A repeat=false { spawn "nirius" "toggle-follow-mode"; }
+    // Mod+S repeat=false { spawn "nirius" "scratchpad-toggle"; }
+    // Mod+Shift+S repeat=false { spawn "nirius" "scratchpad-show-all"; }
+
+    // Mod+A repeat=false { spawn "niri-float-sticky" "-ipc" "toggle_sticky"; }
+
+    Mod+A repeat=false { spawn "nsticky" "sticky" "toggle-active"; }
+}

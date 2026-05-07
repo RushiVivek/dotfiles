@@ -1,0 +1,113 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long int;
+using vi = vector<int>;
+using vll = vector<ll>;
+using pi = pair<int, int>;
+using pll = pair<ll, ll>;
+
+template <class T>
+using vc = vector<T>;
+template <class T>
+using vvc = vector<vc<T>>;
+
+
+#define overload4(_1, _2, _3, _4, name, ...) name
+#define overload3(_1, _2, _3, name, ...) name
+
+#define FOR1(n) for (ll i = 0; i < n; ++i)
+#define FOR2(i, n) for (ll i = 0; i < ll(n); ++i)
+#define FOR3(i, a, b) for (ll i = a; i < ll(b); ++i)
+#define FOR4(i, a, b, c) for (ll i = a; i < ll(b); i += c)
+#define FOR(...) overload4(__VA_ARGS__, FOR4, FOR3, FOR2, FOR1) (__VA_ARGS__)
+
+#define FORR1(n) for (ll i = n; i--;)
+#define FORR2(i, n) for (ll i = n; i--;)
+#define FORR3(i, a, b) for (ll i = b; i-- > ll(a);)
+#define FORR(...) overload3(__VA_ARGS__, FORR3, FORR2, FORR1) (__VA_ARGS__)
+
+#define each1(i, a) for (auto&& i: a)
+#define each2(x, y, a) for (auto&& [x, y]: a)
+#define foreach(...) overload3(__VA_ARGS__, each2, each1) (__VA_ARGS__)
+
+
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
+#define sum(...) accumulate(__VA_ARGS__, 0LL)
+#define Sort(x) sort(all(x));
+#define Rsort(x) sort(rall(x));
+#define Uniq(x) Sort(x); x.erase(unique(all(x)), x.end());
+
+#define F first
+#define S second
+#define mkp make_pair
+#define pb push_back
+#define len(v) ll(v.size())
+#define isin(v, e) (find(all(v), e) != v.end())
+
+#define CIN(...) __VA_ARGS__; input(__VA_ARGS__);
+#define Rpr(...) return print(__VA_ARGS__);
+
+template<class T>
+void _input(vector<T>& a) {
+	FOR(i, len(a)) cin >> a[i];
+}
+template<class T, size_t size>
+void _input(const T (&a)[size]) {
+	FOR(i, size) cin >> a[i];
+}
+template<class... T>
+void input(T&... a) {
+    (cin >> ... >> a);
+}
+
+void print() {
+    cout << '\n';
+}
+template <typename T, size_t size>
+void _print(const T (&a)[size], string end=" ") {
+    for(size_t i = 0; i < size; ++i)
+        cout << a[i] << end;
+    cout << '\n';
+}
+template<class T>
+void _print(const vector<T>& a, string end=" ") {
+    foreach(i, a) cout << i << end;
+    cout << '\n';
+}
+template<class T>
+void _print(const vector<vector<T>>& a, string end=" ") {
+    foreach(i, a) {
+    	_print(i, end);
+    }
+}
+template<class T, class... Ts>
+void print(const T& a, const Ts&... as) {
+    cout << a;
+    (cout << ... << (cout << ' ', as));
+    cout << '\n';
+}
+
+void solve() {
+	$0
+}
+
+signed main() {
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	int t = 1;
+	cin >> t;$1
+	while (t--) {
+		solve();
+	}
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

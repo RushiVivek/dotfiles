@@ -1,0 +1,2 @@
+[2026-04-15T23:20:06.312Z] WARN [ludusavi::scan::launchers::heroic::gog] Unable to parse library in StrictPath { raw: "/home/rushi/.config/heroic/store_cache/gog_library.json", basis: None }: missing field `games` at line 1 column 2
+[2026-04-15T23:20:54.625Z] WARN [ludusavi::scan::launchers::heroic::gog] Unable to parse library in StrictPath { raw: "/home/rushi/.config/heroic/store_cache/gog_library.json", basis: None }: missing field `games` at line 1 column 2

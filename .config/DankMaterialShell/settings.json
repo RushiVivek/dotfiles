@@ -49,6 +49,12 @@
   "modalAnimationSpeed": 1,
   "modalCustomAnimationDuration": 150,
   "enableRippleEffects": true,
+  "blurEnabled": false,
+  "blurForegroundLayers": true,
+  "blurLayerOutlineOpacity": 0.12,
+  "blurBorderColor": "outline",
+  "blurBorderCustomColor": "#ffffff",
+  "blurBorderOpacity": 0.35,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
@@ -65,6 +71,9 @@
   "selectedGpuIndex": 0,
   "enabledGpuPciIds": [],
   "showSystemTray": true,
+  "systemTrayIconTintMode": "none",
+  "systemTrayIconTintSaturation": 50,
+  "systemTrayIconTintStrength": 135,
   "showClock": true,
   "showNotificationButton": true,
   "showBattery": true,
@@ -95,7 +104,8 @@
     {
       "id": "brightnessSlider",
       "enabled": true,
-      "width": 50
+      "width": 50,
+      "deviceName": "backlight:intel_backlight"
     },
     {
       "id": "wifi",
@@ -178,6 +188,10 @@
     "home": {
       "type": "icon",
       "value": "home"
+    },
+    "code": {
+      "type": "icon",
+      "value": "code"
     }
   },
   "waveProgressEnabled": true,
@@ -210,12 +224,6 @@
   "greeterEnableFprint": false,
   "greeterEnableU2f": false,
   "greeterWallpaperPath": "",
-  "greeterUse24HourClock": true,
-  "greeterShowSeconds": false,
-  "greeterPadHours12Hour": false,
-  "greeterLockDateFormat": "",
-  "greeterFontFamily": "",
-  "greeterWallpaperFillMode": "",
   "mediaSize": 1,
   "appLauncherViewMode": "list",
   "spotlightModalViewMode": "list",
@@ -279,9 +287,9 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 900,
-  "acLockTimeout": 600,
-  "acSuspendTimeout": 1800,
+  "acMonitorTimeout": 0,
+  "acLockTimeout": 0,
+  "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
   "batteryMonitorTimeout": 600,
@@ -291,7 +299,7 @@
   "batteryProfileName": "",
   "batteryChargeLimit": 100,
   "lockBeforeSuspend": false,
-  "loginctlLockIntegration": true,
+  "loginctlLockIntegration": false,
   "fadeToLockEnabled": true,
   "fadeToLockGracePeriod": 5,
   "fadeToDpmsEnabled": true,
@@ -311,6 +319,10 @@
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
   "terminalsAlwaysDark": false,
+  "muxType": "tmux",
+  "muxUseCustomCommand": false,
+  "muxCustomCommand": "",
+  "muxSessionFilter": "",
   "runDmsMatugenTemplates": true,
   "matugenTemplateGtk": true,
   "matugenTemplateNiri": true,
@@ -452,12 +464,18 @@
       ],
       "showOnLastDisplay": true,
       "leftWidgets": [
-        "launcherButton",
-        "workspaceSwitcher",
+        {
+          "id": "launcherButton",
+          "enabled": true
+        },
+        {
+          "id": "workspaceSwitcher",
+          "enabled": true
+        },
         {
           "id": "focusedWindow",
           "enabled": true,
-          "focusedWindowCompactMode": false
+          "focusedWindowCompactMode": true
         }
       ],
       "centerWidgets": [
@@ -476,10 +494,6 @@
       "rightWidgets": [
         {
           "id": "systemTray",
-          "enabled": true
-        },
-        {
-          "id": "dankPomodoroTimer",
           "enabled": true
         },
         {
@@ -516,7 +530,10 @@
         {
           "id": "controlCenterButton",
           "enabled": true,
-          "showBrightnessPercent": false
+          "showAudioPercent": false,
+          "showBrightnessIcon": false,
+          "showBrightnessPercent": false,
+          "showBatteryIcon": false
         }
       ],
       "spacing": 2,
@@ -624,7 +641,12 @@
   ],
   "systemMonitorVariants": [],
   "desktopWidgetPositions": {},
-  "desktopWidgetGridSettings": {},
+  "desktopWidgetGridSettings": {
+    "eDP-1": {
+      "enabled": true,
+      "size": 20
+    }
+  },
   "desktopWidgetInstances": [
     {
       "id": "dw_1770593766379_kvfxmf7zn",
@@ -687,23 +709,265 @@
           "y": 45.23828125
         }
       }
+    },
+    {
+      "id": "dw_1777462593418_f8a0ud1yu",
+      "widgetType": "mediaPlayer",
+      "name": "Media Player",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "showOnOverview": false,
+        "syncPositionAcrossScreens": true,
+        "clickThrough": false,
+        "backgroundOpacity": 0,
+        "borderOpacity": 100,
+        "rotateThumbnail": false
+      },
+      "positions": {
+        "eDP-1": {
+          "width": 320,
+          "height": 200,
+          "x": 800,
+          "y": 440
+        },
+        "_synced": {
+          "x": 0.052083333333333336,
+          "y": 0.25925925925925924,
+          "width": 480,
+          "height": 200
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777462866951_chp7rvuks",
+      "widgetType": "desktopClock",
+      "name": "Desktop Clock",
+      "enabled": true,
+      "config": {
+        "style": "digital",
+        "transparency": 0,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showDate": false,
+        "showAnalogNumbers": false,
+        "showAnalogSeconds": true,
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "showOnOverviewOnly": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "eDP-1": {
+          "width": 520,
+          "height": 200,
+          "x": 0,
+          "y": 80
+        },
+        "_synced": {
+          "x": 0.052083333333333336,
+          "y": 0.07407407407407407,
+          "width": 480,
+          "height": 200
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463031061_huz9m609x",
+      "widgetType": "appShortcut",
+      "name": "Brave",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "brave-browser",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "eDP-1": {
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 480
+        },
+        "_synced": {
+          "x": 0,
+          "y": 0.05555555555555555,
+          "width": 100,
+          "height": 100
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463199076_rcqcgdq67",
+      "widgetType": "appShortcut",
+      "name": "Ferdium",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "ferdium",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.12962962962962962
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463265447_t2m6e0low",
+      "widgetType": "appShortcut",
+      "name": "Dolphin",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "org.kde.dolphin",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.2037037037037037
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463513388_ggw84ppc5",
+      "widgetType": "appShortcut",
+      "name": "Fooyin",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "org.fooyin.fooyin",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.2777777777777778
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463602775_plj21kouw",
+      "widgetType": "appShortcut",
+      "name": "Sublime Text",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "sublime_text",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.35185185185185186
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1777463807121_i88mwn4t4",
+      "widgetType": "appShortcut",
+      "name": "Pomodoro",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "Pomotroid",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.42592592592592593
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
     }
   ],
-  "desktopWidgetGroups": [],
+  "desktopWidgetGroups": [
+    {
+      "id": "dwg_1777462585870_v29bjs80n",
+      "name": "Desktop",
+      "collapsed": false
+    }
+  ],
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
     },
     "dankNotepadModule": {
       "previewActive": false,
-      "currentFilePath": "/home/rushi/Documents/note.txt",
+      "currentFilePath": "/home/rushi/Documents/stuff.txt",
       "currentFileExtension": "txt",
-      "sourceContent": "Update swww with awww when it is released\nWallpaper engine not needed ig\n\n\nsurge: ddl\nbagels: money management\nani-cli\ngreg: movies\nsuperseedr: torrent\nyazi: files\nbtop: task manager\nastroterm: screensaver\nnyaa\n\natac postman\n\n**try making fafda using software engineering principles (in go)",
-      "updatedAt": 1772507998736,
+      "sourceContent": "TODO: obs script to move recorded videos to hdd\nTODO: mix notes.txt and this\nTODO: fan control\nTODO: Esp+display\n\t> use wifi (use mac addr to get ip)\n\nMaintain notes of all tasks i do everyday so that last day doc can be filled easily\n\nShould go to laundry after exam\n\nlaptop crashed\n\noff to exam bye bye",
+      "updatedAt": 1778160056702,
       "highlightedHtml": "<pre style=\"white-space:pre-wrap;word-break:break-word;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\"><code><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 1</span>  <span>1) Waterfall all models including agile model\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 2</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 3</span>  <span>2) Requirement analysis and documentation lo know about analysis and gathering, 3 main parts srs are fr, nfr, goals of implementation (should just know what is what), formal specification (should know what is syntactic domain, semantic domain and sat relationship), axiomatic specification and algebraic specification.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 4</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 5</span>  <span>3) Characteristics of a good design, modularity, coupling, cohesion.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 6</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 7</span>  <span>4) Software project management - loc, *fp* , 3 methods of estimation - empirical (Delphi and expert judgement), *halstead*, Basic, intermediate and complex cocomo, *scheduling* (cpm and pert), staffing (see if time permits) , team structure and organisation, types of risk and risk management and agile planning.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 8</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 9</span>  <span>5) level 0, 1, 2 dfd and data dictionary shortcomings of dfd and what are real time systems, properties of real time systems and it&#39;s characteristics, EFSM design for Real Time systems\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\">10</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\">11</span>  <span>6) Mistake, Error, failure, testcase, test scenarios, test script, verification and validation, how the testcases are created and why it should be created ani oka section untadi exact name ide undadu unit testing blackbox testing - equivalence class partitioning and boundary value analysis.... Ee chapter lo last class lo inka Edo cheppindi adi telidu naaku 11 ki appu ki exam avutundi appudu kanukkuni chepta</span></span></code></pre>"
     }
   },
-  "clipboardEnterToPaste": false,
+  "clipboardEnterToPaste": true,
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
   "configVersion": 5
