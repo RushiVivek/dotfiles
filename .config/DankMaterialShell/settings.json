@@ -1,7 +1,7 @@
 {
   "currentThemeName": "custom",
-  "currentThemeCategory": "registry",
-  "customThemeFile": "/home/rushi/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "currentThemeCategory": "custom",
+  "customThemeFile": "/home/rushi/Downloads/catppuccin.json",
   "registryThemeVariants": {
     "catppuccin": {
       "dark": {
@@ -791,7 +791,7 @@
         "backgroundOpacity": 0,
         "drawBorder": true,
         "drawOutlines": false,
-        "shortcutApp": "brave-browser",
+        "shortcutApp": "brave-origin-nightly",
         "followTheme": false,
         "clickThrough": false
       },
@@ -945,6 +945,33 @@
         }
       },
       "group": "dwg_1777462585870_v29bjs80n"
+    },
+    {
+      "id": "dw_1778954952641_czi4mbih3",
+      "widgetType": "appShortcut",
+      "name": "Zen",
+      "enabled": true,
+      "config": {
+        "displayPreferences": [
+          "all"
+        ],
+        "syncPositionAcrossScreens": true,
+        "backgroundOpacity": 0,
+        "drawBorder": true,
+        "drawOutlines": false,
+        "shortcutApp": "zen",
+        "followTheme": false,
+        "clickThrough": false
+      },
+      "positions": {
+        "_synced": {
+          "width": 100,
+          "height": 100,
+          "x": 0,
+          "y": 0.5
+        }
+      },
+      "group": "dwg_1777462585870_v29bjs80n"
     }
   ],
   "desktopWidgetGroups": [
@@ -962,8 +989,8 @@
       "previewActive": false,
       "currentFilePath": "/home/rushi/Documents/stuff.txt",
       "currentFileExtension": "txt",
-      "sourceContent": "TODO: obs script to move recorded videos to hdd\nTODO: mix notes.txt and this\nTODO: fan control\nTODO: Esp+display\n\t> use wifi (use mac addr to get ip)\n\nMaintain notes of all tasks i do everyday so that last day doc can be filled easily\n\nShould go to laundry after exam\n\nlaptop crashed\n\noff to exam bye bye",
-      "updatedAt": 1778160056702,
+      "sourceContent": "lexy learn x in y minutes\ncmus music\ndooit todo list\nsmassh typing\n\nani-cli, anipy-cli\n\n**try making fafda using software engineering principles (in go)\n\nhttps://www.instagram.com/reel/DSC0MnckaMJ/?igsh=MTlqcW5yZG9xZjM4dQ==\n\nhttps://wifilogin.iitism.ac.in/status\n\n/home/rushi/.local/share/quickshell-lockscreen/lock.sh\n\nhttps://www.catgatekeeper.org/ :make a desktop app similar concept which overlays on select windows",
+      "updatedAt": 1779376988796,
       "highlightedHtml": "<pre style=\"white-space:pre-wrap;word-break:break-word;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\"><code><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 1</span>  <span>1) Waterfall all models including agile model\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 2</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 3</span>  <span>2) Requirement analysis and documentation lo know about analysis and gathering, 3 main parts srs are fr, nfr, goals of implementation (should just know what is what), formal specification (should know what is syntactic domain, semantic domain and sat relationship), axiomatic specification and algebraic specification.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 4</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 5</span>  <span>3) Characteristics of a good design, modularity, coupling, cohesion.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 6</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 7</span>  <span>4) Software project management - loc, *fp* , 3 methods of estimation - empirical (Delphi and expert judgement), *halstead*, Basic, intermediate and complex cocomo, *scheduling* (cpm and pert), staffing (see if time permits) , team structure and organisation, types of risk and risk management and agile planning.\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 8</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\"> 9</span>  <span>5) level 0, 1, 2 dfd and data dictionary shortcomings of dfd and what are real time systems, properties of real time systems and it&#39;s characteristics, EFSM design for Real Time systems\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\">10</span>  <span>\n</span></span><span style=\"display:flex;\"><span style=\"white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#6e7681\">11</span>  <span>6) Mistake, Error, failure, testcase, test scenarios, test script, verification and validation, how the testcases are created and why it should be created ani oka section untadi exact name ide undadu unit testing blackbox testing - equivalence class partitioning and boundary value analysis.... Ee chapter lo last class lo inka Edo cheppindi adi telidu naaku 11 ki appu ki exam avutundi appudu kanukkuni chepta</span></span></code></pre>"
     }
   },

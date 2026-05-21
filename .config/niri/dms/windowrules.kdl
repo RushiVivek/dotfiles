@@ -40,12 +40,6 @@ window-rule {
     default-window-height { fixed 600; }
 }
 
-// @id=wr_1776202137716497454 @name=brave-browser
-window-rule {
-    match app-id="^brave-browser$"
-    open-maximized true
-}
-
 // @id=wr_1776210348514013873 @name=jetbrains-pycharm
 window-rule {
     match app-id="^jetbrains-pycharm$"
@@ -72,4 +66,22 @@ window-rule {
     open-floating true
     default-column-width { fixed 600; }
     default-window-height { fixed 500; }
+}
+
+// @id=wr_1778954772995786932 @name=brave-origin-nightly
+window-rule {
+    match app-id="^brave-origin-nightly$"
+    open-maximized true
+}
+
+// @id=wr_1778954782615572934 @name=helium
+window-rule {
+    match app-id="^helium$"
+    open-maximized true
+}
+
+// @id=wr_1778954789290052585 @name=zen
+window-rule {
+    match app-id="^zen$"
+    open-maximized true
 }

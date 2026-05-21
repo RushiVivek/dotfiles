@@ -21,3 +21,4 @@ set -x LANG en_US.UTF-8 # btop
 abbr -a sudopath "sudo -E"
 
 abbr -a unlock_sudo "faillock --reset"
+
