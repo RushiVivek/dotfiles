@@ -85,3 +85,11 @@ window-rule {
     match app-id="^zen$"
     open-maximized true
 }
+
+// @id=wr_1783424440750881934 @name=lethe-popup
+window-rule {
+    match app-id="^lethe-popup$"
+    open-floating true
+    default-column-width { fixed 720; }
+    default-window-height { fixed 480; }
+}

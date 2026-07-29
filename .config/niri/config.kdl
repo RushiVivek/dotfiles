@@ -93,14 +93,16 @@ spawn-at-startup "env" "XDG_MENU_PREFIX=arch-" "kbuildsycoca6"
 spawn-at-startup "wmname" "LG3D"
 spawn-at-startup "dms" "run"
 
-spawn-at-startup "nsticky"
+// spawn-at-startup "nsticky"
 // spawn-at-startup "niri-float-sticky"
 // spawn-at-startup "niriusd"
-spawn-at-startup "~/.config/niri/niri-sidebar" "listen"
+// spawn-at-startup "~/.config/niri/niri-sidebar" "listen"
 // spawn-at-startup "fish" "-c" "piri daemon > /dev/null 2>&1 &"
-spawn-at-startup "niri-screen-time" "-daemon"
+// spawn-at-startup "niri-screen-time" "-daemon"
 spawn-at-startup "awww-daemon" "--format" "xrgb"
 spawn-at-startup "variety"
+spawn-at-startup "koto" "serve"
+spawn-at-startup "iris" "bridge"
 // spawn-at-startup "kitty" "-e" "btop"
 layout {
     // Set gaps around windows in logical pixels.
@@ -328,10 +330,10 @@ binds {
     // Mod+A repeat=false { spawn "piri" "sticky" "add"; }
     // Mod+Shift+A repeat=false { spawn "piri" "sticky" "delete"; }
 
-    Mod+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-window"; }
-    Mod+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-visibility"; }
-    Mod+Ctrl+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar flip"; }
-    Mod+Ctrl+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar reorder"; }
+    // Mod+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-window"; }
+    // Mod+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar toggle-visibility"; }
+    // Mod+Ctrl+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar flip"; }
+    // Mod+Ctrl+Shift+S repeat=false { spawn-sh "~/.config/niri/niri-sidebar reorder"; }
 
     // Mod+A repeat=false { spawn "nirius" "toggle-follow-mode"; }
     // Mod+S repeat=false { spawn "nirius" "scratchpad-toggle"; }
@@ -339,5 +341,11 @@ binds {
 
     // Mod+A repeat=false { spawn "niri-float-sticky" "-ipc" "toggle_sticky"; }
 
-    Mod+A repeat=false { spawn "nsticky" "sticky" "toggle-active"; }
+    // Mod+A repeat=false { spawn "nsticky" "sticky" "toggle-active"; }
+
+    // Mod+Alt+D repeat=false { spawn "iris" "snapshot" "load" "test1"; }
+    Mod+A repeat=false { spawn "iris" "pin" "toggle"; }
+    Mod+S repeat=false { spawn "iris" "scratchpad" "toggle"; }
+
+    Mod+Shift+M repeat=false { spawn "lethe" "--random"; }
 }

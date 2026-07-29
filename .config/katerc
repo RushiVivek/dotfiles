@@ -20,8 +20,8 @@ Text Font Features=
 Word Wrap Marker=false
 
 [MainWindow]
-1920x1080 screen: Height=1072
-1920x1080 screen: Width=1912
+1920x1080 screen: Height=1024
+1920x1080 screen: Width=938
 
 [filetree]
 editShade=30,78,103

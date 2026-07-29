@@ -7,6 +7,7 @@ DirHistory[$e]=$HOME/Downloads/CEServer/
 
 [General]
 BrowseThroughArchives=true
+DoubleClickViewAction=open_terminal
 OpenExternallyCalledFolderInNewTab=true
 RememberOpenedTabs=false
 UseTabForSwitchingSplitView=true

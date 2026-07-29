@@ -31,3 +31,11 @@ default_filter = "NoFilter"
 default_category = "AllCategories"
 default_search = ""
 rss = false
+
+[source.torrentgalaxy]
+base_url = "https://torrentgalaxy.to/"
+default_sort = "Date"
+default_sort_dir = "Desc"
+default_filter = "NoFilter"
+default_category = "AllCategories"
+default_search = ""

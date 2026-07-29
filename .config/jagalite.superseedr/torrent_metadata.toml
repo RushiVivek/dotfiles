@@ -1,2 +1,337 @@
 schema_version = 1
-torrents = []
+
+[[torrents]]
+info_hash_hex = "c2b3508185652e646b4b49320d8d71248e8fda67"
+is_multi_file = true
+torrent_name = "The Eminence in Shadow (S1+S2) [BD] [AV1] [ItachiUchiha]"
+total_size = 23211416094
+
+[torrents.file_priorities]
+
+[[torrents.files]]
+length = 896083036
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E14 - Your Lie, Your Wish.mkv"
+
+[[torrents.files]]
+length = 827656146
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E02 - Shadow Garden Is Born.mkv"
+
+[[torrents.files]]
+length = 807348138
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E03 - Fencer Ordinaire.mkv"
+
+[[torrents.files]]
+length = 693150039
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E04 - Sadism's Rewards.mkv"
+
+[[torrents.files]]
+length = 819927769
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E05 - I Am....mkv"
+
+[[torrents.files]]
+length = 721121149
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E06 - Pretenders.mkv"
+
+[[torrents.files]]
+length = 829049189
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E07 - A Fencing Tournament of Intrigue and Bloodshed.mkv"
+
+[[torrents.files]]
+length = 614659198
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E08 - Dark Knight Academy Under Attack.mkv"
+
+[[torrents.files]]
+length = 763720191
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E09 - The End of a Lie.mkv"
+
+[[torrents.files]]
+length = 755406626
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E10 - The Sacred Land, City of Deception.mkv"
+
+[[torrents.files]]
+length = 765972499
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E11 - The Goddess' Trial.mkv"
+
+[[torrents.files]]
+length = 697450936
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E12 - The Truth Within the Memories.mkv"
+
+[[torrents.files]]
+length = 789164622
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E13 - A Bloody Showdown as an Offering to Annihilation.mkv"
+
+[[torrents.files]]
+length = 633656132
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E01 - The Hated Classmate.mkv"
+
+[[torrents.files]]
+length = 781120886
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E15 - The Strongest Weakest Man.mkv"
+
+[[torrents.files]]
+length = 760118413
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E16 - Unseen Intentions.mkv"
+
+[[torrents.files]]
+length = 691024225
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E17 - Moonlight That Pierces the Darkness.mkv"
+
+[[torrents.files]]
+length = 739475842
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E18 - Betting on a Moment.mkv"
+
+[[torrents.files]]
+length = 684311688
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E19 - Dancing Puppet.mkv"
+
+[[torrents.files]]
+length = 738979527
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/The Eminence in Shadow - S01E20 - Advent of the Demon.mkv"
+
+[[torrents.files]]
+length = 2224
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Ω info.txt"
+
+[[torrents.files]]
+length = 71713774
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 01 - Darling in the Night - Asami Seto (Alpha).mkv"
+
+[[torrents.files]]
+length = 64981359
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 02 - Darling in the Night - Inori Minase (Beta).mkv"
+
+[[torrents.files]]
+length = 96015215
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 03 - Darling in the Night - Suzuko Mimori (Gamma).mkv"
+
+[[torrents.files]]
+length = 67484515
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 04 - Darling in the Night - Ai Fairouz (Delta).mkv"
+
+[[torrents.files]]
+length = 63647134
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 05 - Darling in the Night - Hisako Kanemoto (Epsilon).mkv"
+
+[[torrents.files]]
+length = 79517445
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 06 - Darling in the Night - Ayaka Asai (Zeta).mkv"
+
+[[torrents.files]]
+length = 74507567
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCED 07 - Darling in the Night - Reina Kondo (Eta).mkv"
+
+[[torrents.files]]
+length = 77301274
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCOP 01a - HIGHEST by Oxt - Clocktower - Midgar's Royal Capital.mkv"
+
+[[torrents.files]]
+length = 80554356
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCOP 01b - HIGHEST by Oxt - Midgar Academy - Midgar's Royal Capital.mkv"
+
+[[torrents.files]]
+length = 77641899
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCOP 01c - HIGHEST by Oxt - Water dam - Lindwurm.mkv"
+
+[[torrents.files]]
+length = 77387980
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/The Eminence in Shadow - NCOP 01d - HIGHEST by Oxt - Bushin Festival Arena - Midgar's Royal Capital.mkv"
+
+[[torrents.files]]
+length = 11437984
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 1 - The Seven Shadows want their operation to succeed!.mkv"
+
+[[torrents.files]]
+length = 14040293
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 2 - The Seven Shadows want to perfect an amazing war chronicle!.mkv"
+
+[[torrents.files]]
+length = 10764854
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 3 - The Seven Shadows want to make delicious chocolate!.mkv"
+
+[[torrents.files]]
+length = 12134520
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 4 - The Seven Shadows want to procure the legendary coffee!.mkv"
+
+[[torrents.files]]
+length = 10603883
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 5 - The Seven Shadows want to create an artifact!.mkv"
+
+[[torrents.files]]
+length = 10763586
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 6 - The Seven Shadows want to recommend cute underwear!.mkv"
+
+[[torrents.files]]
+length = 13964143
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 7 - The Seven Shadows want to select cute underwear!.mkv"
+
+[[torrents.files]]
+length = 14844843
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 8 - The Seven Shadows want to bathe in the finest hot spa!.mkv"
+
+[[torrents.files]]
+length = 17395525
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 9 - The Seven Shadows want to get along together!.mkv"
+
+[[torrents.files]]
+length = 15996236
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 10 - The Seven Shadows want to gain awesome muscles!.mkv"
+
+[[torrents.files]]
+length = 13002589
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 11 - The Seven Shadows want to understand what 'Bubble' means!.mkv"
+
+[[torrents.files]]
+length = 10825551
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 12 - The Seven Shadows want to create a new flavor!.mkv"
+
+[[torrents.files]]
+length = 14095638
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 13 - The Seven Shadows want to see friendliness being displayed!.mkv"
+
+[[torrents.files]]
+length = 15875947
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 14 - The Seven Shadows want to receive words of praise!.mkv"
+
+[[torrents.files]]
+length = 15435774
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 15 - The Seven Shadows want to enjoy pleasant music!.mkv"
+
+[[torrents.files]]
+length = 18349108
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 16 - The Seven Shadows want to put on amazing underwear!.mkv"
+
+[[torrents.files]]
+length = 16549169
+relative_path = "The Eminence in Shadow (S1) [BD] [AV1]/Extras/Kage-Jitsu!/Kage-Jitsu! Operation 17 - The Seven Shadows want to continue this operation!.mkv"
+
+[[torrents.files]]
+length = 449683398
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E01 - The Lawless City.mkv"
+
+[[torrents.files]]
+length = 440823122
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E02 - The Haven.mkv"
+
+[[torrents.files]]
+length = 638140578
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E03 - The Hour of Awakening.mkv"
+
+[[torrents.files]]
+length = 398811153
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E04 - Mask of Falsehood.mkv"
+
+[[torrents.files]]
+length = 489621583
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E05 - He Who Pulls the Strings.mkv"
+
+[[torrents.files]]
+length = 572539519
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E06 - John Smith.mkv"
+
+[[torrents.files]]
+length = 466818360
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E07 - Something Precious.mkv"
+
+[[torrents.files]]
+length = 696795342
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E08 - The Dragon's Tears.mkv"
+
+[[torrents.files]]
+length = 562464609
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E09 - The Key.mkv"
+
+[[torrents.files]]
+length = 452653759
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E10 - Caged Bird.mkv"
+
+[[torrents.files]]
+length = 531684940
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E11 - Determination.mkv"
+
+[[torrents.files]]
+length = 522921360
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/The Eminence in Shadow - S02E12 - Highest.mkv"
+
+[[torrents.files]]
+length = 2544
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Ω info.txt"
+
+[[torrents.files]]
+length = 166557396
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCED 01 - Polaris in the Night - Ikumi Hasegawa (Lambda).mkv"
+
+[[torrents.files]]
+length = 52053618
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCED 02 - Polaris in the Night - Maaya Uchida (Nu).mkv"
+
+[[torrents.files]]
+length = 172796232
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCED 03 - Polaris in the Night - Mayu Minami (Chi).mkv"
+
+[[torrents.files]]
+length = 39242245
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCED 04 - Polaris in the Night - Ryōko Maekawa (Omega).mkv"
+
+[[torrents.files]]
+length = 110669260
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCED 05 - Polaris in the Night - The Seven Shadows (Alpha, Beta, Gamma, Delta, Epsilon, Zeta, Eta).mkv"
+
+[[torrents.files]]
+length = 69411213
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCOP 01a - 'grayscale dominator' by Oxt - Shadow.mkv"
+
+[[torrents.files]]
+length = 69000215
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCOP 01b - 'grayscale dominator' by Oxt - John Smith.mkv"
+
+[[torrents.files]]
+length = 69581768
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/The Eminence in Shadow S02 - NCOP 01c - 'grayscale dominator' by Oxt - Cid Kagenou.mkv"
+
+[[torrents.files]]
+length = 13943897
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 1 - The Seven Shadows want to improve their brand!.mkv"
+
+[[torrents.files]]
+length = 12010696
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 2 - The Seven Shadows want to develop cute clothes!.mkv"
+
+[[torrents.files]]
+length = 15900431
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 3 - The Seven Shadows want to create a trend!.mkv"
+
+[[torrents.files]]
+length = 8329940
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 4 - The Seven Shadows want to make awesome banknotes!.mkv"
+
+[[torrents.files]]
+length = 11209972
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 5 - The Seven Shadows want to be praised for their success!.mkv"
+
+[[torrents.files]]
+length = 12200906
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 6 - The Seven Shadows want to hunt in the Lawless City!.mkv"
+
+[[torrents.files]]
+length = 17375133
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 7 - The Seven Shadows want to follow the Lord they believe in!.mkv"
+
+[[torrents.files]]
+length = 10403720
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 8 - The Seven Shadows want to babble on once in a while!.mkv"
+
+[[torrents.files]]
+length = 11194373
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 9 - The Seven Shadows want to be seen as a little bit smarter!.mkv"
+
+[[torrents.files]]
+length = 23936985
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 10 - The Seven Shadows want to get more familiar with music!.mkv"
+
+[[torrents.files]]
+length = 14477369
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 11 - The Seven Shadows want to show off their growth!.mkv"
+
+[[torrents.files]]
+length = 11929822
+relative_path = "The Eminence in Shadow (S2) [BD] [AV1]/Extras/Kage-Jitsu! Second/Kage-Jitsu! Second - Operation 12 - The Seven Shadows will not be shaken no matter what!.mkv"
