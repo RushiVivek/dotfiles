@@ -65,8 +65,35 @@ backup:
         level: 10
   onlyConstructive: false
 restore:
-  path: /home/rushi/ludusavi-backup
-  ignoredGames: []
+  path: /home/rushi/.game-saves
+  ignoredGames:
+    - 007 First Light
+    - "Arknights: Endfield"
+    - Bad End Theater
+    - "Behind the Frame: The Finest Scenery"
+    - "Behind the Frame: The Finest Scenery VR"
+    - "Clair Obscur: Expedition 33"
+    - Clannad
+    - Counter-Strike 2
+    - Dark Souls Remastered
+    - Dispatch
+    - Dispatch (2025)
+    - F1 22
+    - Forza Horizon 4
+    - Geneshift
+    - Genshin Impact
+    - God of War
+    - Haste
+    - Helltaker
+    - Hogwarts Legacy
+    - Lies of P
+    - "Marvel's Spider-Man Remastered"
+    - "Moral Dilemma: The Interview"
+    - Peak
+    - RV There Yet?
+    - Sifu
+    - Subnautica
+    - Zenless Zone Zero
   toggledPaths: {}
   toggledRegistry: {}
   sort:

@@ -28,7 +28,7 @@ Item {
                 name: "Get Temporary Mail",
                 icon: "material:terminal",
                 comment: "Get a new temp mail",
-                action: "script:temp-mail --gui",
+                action: "script:lethe",
                 categories: ["TempMail"]
             }
         ]
@@ -79,7 +79,7 @@ Item {
     }
 
     function runScript(command) {
-        Quickshell.execDetached(["temp-mail", "--gui"])
+        Quickshell.execDetached(["lethe", "--help"])
     }
 
     // Watch for trigger changes

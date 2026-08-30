@@ -93,3 +93,15 @@ window-rule {
     default-column-width { fixed 720; }
     default-window-height { fixed 480; }
 }
+
+// @id=wr_1787625583996141046 @name=code
+window-rule {
+    match app-id="^code$"
+    open-maximized true
+}
+
+// @id=wr_1788016416687118292 @name=kitty
+window-rule {
+    match app-id="^kitty$"
+    open-maximized true
+}

@@ -91,7 +91,7 @@ output "eDP-1" {
 spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &"
 spawn-at-startup "env" "XDG_MENU_PREFIX=arch-" "kbuildsycoca6"
 spawn-at-startup "wmname" "LG3D"
-spawn-at-startup "dms" "run"
+// spawn-at-startup "dms" "run"
 
 // spawn-at-startup "nsticky"
 // spawn-at-startup "niri-float-sticky"
@@ -103,6 +103,8 @@ spawn-at-startup "awww-daemon" "--format" "xrgb"
 spawn-at-startup "variety"
 spawn-at-startup "koto" "serve"
 spawn-at-startup "iris" "bridge"
+spawn-at-startup "diodos" "start"
+spawn-at-startup "kitty" "-e" "koto" "tui"
 // spawn-at-startup "kitty" "-e" "btop"
 layout {
     // Set gaps around windows in logical pixels.
@@ -344,8 +346,8 @@ binds {
     // Mod+A repeat=false { spawn "nsticky" "sticky" "toggle-active"; }
 
     // Mod+Alt+D repeat=false { spawn "iris" "snapshot" "load" "test1"; }
-    Mod+A repeat=false { spawn "iris" "pin" "toggle"; }
-    Mod+S repeat=false { spawn "iris" "scratchpad" "toggle"; }
+    Mod+A repeat=false hotkey-overlay-title="Pin floating windows" { spawn "iris" "pin" "toggle"; }
+    Mod+S repeat=false hotkey-overlay-title="Toggle window to scratchpad" { spawn "iris" "scratchpad" "toggle"; }
 
-    Mod+Shift+M repeat=false { spawn "lethe" "--random"; }
+    Mod+Shift+M repeat=false hotkey-overlay-title="Get a random temp mail" { spawn "lethe" "--random"; }
 }

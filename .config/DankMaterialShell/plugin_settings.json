@@ -6,7 +6,10 @@
   },
   "commandRunner": {
     "enabled": true,
-    "history": []
+    "history": [
+      "variety",
+      "watchdogs legion"
+    ]
   },
   "lyricsOnPanel": {
     "enabled": false
@@ -35,15 +38,42 @@
   },
   "clipboardPlus": {
     "enabled": true,
-    "backgroundOpacity": 30,
-    "tabOrder": "clipboard,search,category,pinned,todo",
-    "tabOrderEnabled": "clipboard,search,category,pinned,todo"
+    "backgroundOpacity": 0,
+    "tabOrder": "clipboard,search,category,pinned,todo,emoji",
+    "tabOrderEnabled": "clipboard,search,category,pinned,todo,emoji",
+    "hidePanelBackground": false,
+    "autoPasteOnEnterSelect": true,
+    "listenClipboardWhileOpen": true,
+    "useDmsClipboard": true,
+    "maxPinnedImageMb": 100,
+    "maxPinnedTextMb": 10,
+    "showBarWidget": false,
+    "emojiStandaloneLayoutOnIpc": true,
+    "emojiShowInPanel": false,
+    "emojiUnicodeEnabled": true,
+    "todoEnabled": true,
+    "noteCardScale": 100
   },
   "dmsSessionizer": {
     "enabled": false,
     "terminal": "kitty"
   },
   "tempMail": {
+    "enabled": true,
+    "noTrigger": false,
+    "trigger": "!mail"
+  },
+  "quickCapture": {
     "enabled": true
+  },
+  "catWidget": {
+    "enabled": true
+  },
+  "fullscreenPowerMenu": {
+    "enabled": true
+  },
+  "networkIndicator": {
+    "enabled": true,
+    "displayMode": "combined"
   }
 }

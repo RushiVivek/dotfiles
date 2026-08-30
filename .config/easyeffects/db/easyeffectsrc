@@ -8,7 +8,7 @@ inputDevice=alsa_input.usb-GN_Audio_A_S_Jabra_Evolve2_30_SE_B0000055C11F11-00.mo
 mostUsedPresets=hifi-min,laptop,hifi-max,analog
 outputDevice=alsa_output.usb-GN_Audio_A_S_Jabra_Evolve2_30_SE_B0000055C11F11-00.analog-stereo
 plugins=crossfeed#0,equalizer#0,bass_enhancer#0,filter#0,equalizer#1,equalizer#2,equalizer#3,multiband_compressor#0,compressor#0,reverb#0,stereo_tools#0,autogain#0,limiter#0
-usedPresets=laptop:7,hifi-min:8,analog:3,hifi-max:5
+usedPresets=laptop:7,hifi-min:9,analog:4,hifi-max:6
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
@@ -17,5 +17,5 @@ forceBreezeTheme=false
 
 [Window]
 autostartOnLogin=true
-height=1072
-width=954
+height=1024
+width=938

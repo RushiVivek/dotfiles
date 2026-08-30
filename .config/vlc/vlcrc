@@ -1564,7 +1564,7 @@ freetype-font=Noto Sans
 [equalizer] # Equalizer with 10 bands
 
 # Equalizer preset (string)
-#equalizer-preset=flat
+equalizer-preset=soft
 
 # Bands gain (string)
 #equalizer-bands=
@@ -1576,7 +1576,7 @@ freetype-font=Noto Sans
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-#equalizer-preamp=12.000000
+equalizer-preamp=5.000000
 
 [compressor] # Dynamic range compressor
 
@@ -3862,7 +3862,7 @@ aout=any
 #role=video
 
 # Audio filters (string)
-#audio-filter=
+audio-filter=equalizer
 
 # Audio visualizations (string)
 #audio-visual=none
